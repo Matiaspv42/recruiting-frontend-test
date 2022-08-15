@@ -29,3 +29,5 @@ El ultimo paso era agregar el boton que desplegara el modal y que obtuviera info
 A medida que avanzaba me di cuenta que realmente no era necesario tener dos componentes diferentes para la lista de facturas y la lista de notas, lamentablemente al final ya no me alcanzó el tiempo para hacer la refactorización es por esto que una oportunidad de mejora sería refactorizar el código de las listas y crear un componente más general para no tener que reescribir un código casi igual.
 
 Otra oportunidad de mejora sería agregar más información al modal del botón Asignar y mejorar el formato en que se está presentando la información, ya me quedaba muy poco tiempo cuando escribí el modal así que no fue posible mejorar la presentación acá.
+
+Finalmente quería mencionad como oportunidad de mejora el agregar el hook `useEffect` al componente principal para obtener la información desde el endpoint y así renderizarla cuando se reciba
