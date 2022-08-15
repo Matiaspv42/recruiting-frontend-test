@@ -30,4 +30,4 @@ A medida que avanzaba me di cuenta que realmente no era necesario tener dos comp
 
 Otra oportunidad de mejora sería agregar más información al modal del botón Asignar y mejorar el formato en que se está presentando la información, ya me quedaba muy poco tiempo cuando escribí el modal así que no fue posible mejorar la presentación acá.
 
-Finalmente quería mencionad como oportunidad de mejora el agregar el hook `useEffect` al componente principal para obtener la información desde el endpoint y así renderizarla cuando se reciba
+Finalmente quería mencionad como oportunidad de mejora el agregar el hook `useEffect` al componente principal para obtener la información desde el endpoint, pasarla a través de props para los componentes `ListaFactura.js` y `ListaNota.js` y así renderizarla cuando la información sea recibida. 
