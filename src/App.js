@@ -6,7 +6,12 @@ import FacturaContext from './FacturaContext';
 import ListaNota from './components/ListaNota/ListaNota';
 import Modal from './components/Modal/Modal';
 
+import axios from 'axios'
+
 export default function App() {
+
+  axios.get('https://recruiting.api.bemmbo.com/invoices/pending')
+
   const [facturaSeleccionada, setFacturaSeleccionada] = useState([])
   const [notaSeleccionada, setNotaSeleccionada] = useState([])
   const [showModal, setShowModal] = useState(false);
