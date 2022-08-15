@@ -21,7 +21,7 @@ export default function ListaNota (props){
                 value={`${nota.amount},${nota.currency},${nota.organization_id},${nota.id} `}
                 />{`inv_${index+1}`} <span className='text-gray-500'> ({nota.organization_id})</span></span>
                 <span className='monto'> {nota.amount} {nota.currency} </span>
-                <span className='estado text-gray-500'>{nota.type === "credit_note"? 'Recibido' : `inv_${index +1}`}</span>
+                <span className='estado text-gray-500'>{nota.type === "credit_note"? `inv_${index +1}` : 'recibido'}</span>
             </label> 
             </li>
            ))}
