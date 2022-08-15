@@ -11,7 +11,7 @@ export default function ListaFactura (props){
     }
 
     return(
-        <ul className='border-solid border-gray border w-5/6'>
+        <ul className='border-solid border-gray border w-5/6  my-2'>
            {facturas.map((factura, index) => (
             <li key={factura.id} className="rounded border-gray border-solid border"> 
             <label htmlFor="" className='flex justify-around'>
