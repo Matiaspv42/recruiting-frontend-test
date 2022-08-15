@@ -2,7 +2,7 @@
 
 ### Paso 1
 
-Para el desarrollo de esta prueba partí testeando el endpoint, utilizando curl y thundercliente parecía funcionar bien pero cuando empecé a implemente utilizando axios empecé a tener errores cada vez que intentaba realizar una consulta get. El error que arrojaba era
+Para el desarrollo de esta prueba partí testeando el endpoint, utilizando curl y Thunder Client parecía funcionar bien pero cuando empecé a implemente utilizando axios empecé a tener errores cada vez que intentaba realizar una consulta get. El error que arrojaba era
 
 `localhost/:1 Access to XMLHttpRequest at 'https://recruiting.api.bemmbo.com/invoices/pending' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.`
 
